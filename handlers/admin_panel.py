@@ -19,21 +19,6 @@ class CheckBingo(StatesGroup):
     waiting_for_decision = State()
     waiting_for_answer = State()
 
-# Создаем соединение с базой данных
-conn = sqlite3.connect('database.db')
-# Создаем курсор
-cursor = conn.cursor()
-# Выполняем SQL-запрос на создание таблицы, если она еще не существует
-cursor.execute('''
-    CREATE TABLE IF NOT EXISTS admin_data (
-        chat_id INTEGER,
-        admin_id TEXT
-    );
-''')
-# Фиксируем изменения
-conn.commit()
-# Закрываем курсор
-cursor.close()
 
 # Создаем хранилище для состояний
 storage = MemoryStorage()

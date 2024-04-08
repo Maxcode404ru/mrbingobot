@@ -42,7 +42,7 @@ PROXY_URL = "http://proxy.server:3128 "
 BOT_TOKEN = os.getenv('BOT_TOKEN')
 API_key = os.getenv('API_KEY')
 base_url = os.getenv('BASE_URL')
-conn = sqlite3.connect('database.db', check_same_thread=False)
+conn = sqlite3.connect('', check_same_thread=False)
 cursor = conn.cursor()
 
 ADMIN = int(os.getenv('ADMIN'))

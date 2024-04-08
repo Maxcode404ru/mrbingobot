@@ -1,4 +1,0 @@
-from handlers import admin_panel
-from handlers import creating_bingo_handler
-from handlers import main_hendlers
-from handlers import handler_bingo_games

@@ -90,3 +90,22 @@
 
 
         есть массив id нужен код который  бы поочередно брал 1 из масивов и получал name_bingo, name_user, approved_bingo, photo_bingo - эти данные он отсылает пользователю в сообщении, под сообщением есть 2 кнопки: Оставить, Удалить. если пользователь нажимает оставить то открывается следющий id, если Удалить то обновялет approved_bingo = 5. Процесс идет пока пользователь не введет /stop
+# Бинго бот
+
+Бинго бот - бот в котором вы можете создавать бинго и проходить их с друзьями.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
